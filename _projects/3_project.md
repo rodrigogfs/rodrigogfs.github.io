@@ -5,7 +5,7 @@ description: SISTEMAS INTELIGENTES – MODELAGEM PREDITIVA E INTERNET DAS COISAS
 img: assets/img/3.jpg
 <!-- redirect: https://unsplash.com -->
 importance: 3
-category: work
+category: Researcher
 ---
 
 Fomento FACEPE, Processo APQ-0496-5.03/22, vinculado ao Edital 08/2022 - Chamada Pública FACEPE-FAPESP – Apoio a Pesquisas em Inteligência Artificial Aplicada (IA)

@@ -4,7 +4,7 @@ title: Aprendizado semissupervisionado online para predição de mudanças crít
 description: Projeto para predição de defeitos em software
 img: assets/img/logo_lfc.jpg
 importance: 1
-category: work
+category: Coordinator
 related_publications: true
 ---
 

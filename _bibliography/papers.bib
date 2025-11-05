@@ -7,6 +7,8 @@
   number={9},
   pages={6029-6041},
   keywords={Training;Manifolds;Labeling;Neural networks;Semisupervised learning;Clustering algorithms;Software;Data stream learning;manifold learning;neural networks;nonstationary environments;online semisupervised learning},
+  selected={true},
+  pdf={osnn.pdf},
   doi={10.1109/TNNLS.2021.3132584}
 }
 
@@ -20,6 +22,8 @@ issn = {0893-6080},
 doi = {https://doi.org/10.1016/j.neunet.2025.107151},
 url = {https://www.sciencedirect.com/science/article/pii/S0893608025000309},
 author = {Rodrigo G.F. Soares and Leandro L. Minku},
+selected={true},
+pdf={owa.pdf},
 keywords = {Online model compression, Nonstationary environments, Data stream learning, Ensemble learning, Neural networks},
 abstract = {Learning from data streams that emerge from nonstationary environments has many real-world applications and poses various challenges. A key characteristic of such a task is the varying nature of the underlying data distributions over time (concept drifts). However, the most common type of data stream learning approach are ensemble approaches, which involve the training of multiple base learners. This can severely increase their computational cost, especially when the learners have to recover from concept drift, rendering them inadequate for applications with tight time and space constraints. In this work, we propose Online Weight Averaging (OWA) — a robust and fast online model compression method for nonstationary data streams based on stochastic weight averaging. It is the first online model compression for nonstationary data streams, which is capable of compressing an evolving ensemble of neural networks into a single model continuously over time. It combines several snapshots of a neural network over time by averaging its weights in specific time steps to find promising regions in the loss landscape with the ability to forget weights from outdated time steps when a concept drift occurs. In this way, at any point in time, a single neural network is maintained to represent a whole ensemble, leveraging the power of ensembles while being appropriate for applications with tight speed requirements. Our experiments show that this key advantage of our proposed method also translates into other advantages such as (1) significant savings in computational cost compared to state-of-the-art data stream ensemble methods while (2) delivering similar predictive performance.}
 }
@@ -152,6 +156,8 @@ year="2026",
 publisher="Springer Nature Singapore",
 address="Singapore",
 pages="224--240",
+selected={true},
+pdf={oadam.pdf},
 abstract="One of the main challenges in data stream learning are concept drifts, which encompasses changes in both the data distribution and the posterior class distribution over time. Several approaches based on online neural networks have been proposed for Online Supervised Classification (OSC) in data stream learning. However, these techniques do not adapt the optimization algorithm to incoming concept drifts, which can lead to weight updates with misleading or obsolete information. In fact, several momentum-based algorithms, such as AdamW, employ past gradient information in the form of exponential moving averages and depend on several user-defined constant hyperparameters for controlling these averages. However, these gradients and hyperparameters may not be meaningful for new concepts, which causes the optimizer to become obsolete. Moreover, the tuning of these hyperparameters may require the availability of the entire dataset, which is not possible in data stream learning. In this paper, we extend the AdamW optimizer and propose the Online Adaptive Moment Estimation (OAdam), an algorithm for training online neural networks in data stream learning that automatically adapts to concept drift without hyperparameters. It employs bias and variance to detect how well the model is representing and learning the data and evolve its training accordingly. When a concept drift occurs, it is capable of adapting the network's momentum, regularization and step size to better fit the incoming changes in class distribution. Our experiments confirmed that our method is able to react and adapt to concept drifts more effectively than other approaches, producing better predictive performance.",
 isbn="978-981-96-6951-6"
 }
@@ -175,6 +181,8 @@ year="2025",
 publisher="Springer Nature Singapore",
 address="Singapore",
 pages="273--289",
+selected={true},
+pdf={s3wa.pdf},
 abstract="Data streams from non-stationary environments are inherently difficult for predictive techniques as data distributions may rapidly change (concept drifts), requiring self-evolving and efficient models. Another important challenge is learning from abundant and potentially useful unlabeled data that would be otherwise discarded by offline methods. In this work, we propose Semi-supervised Stochastic Weight Averaging (S3WA), a semi-supervised neural network that employs Stochastic Weight Averaging (SWA) to improve predictive performance over typical ensemble approaches. S3WA employs a Denoising Autoencoder to learn meaningful dynamic representations of data using both labeled and unlabeled instances. Unlike SWA, S3WA modifies the weight averaging strategy to continuously adapt to changes in the weight space and is capable of working in non-stationary environments. Our experiments confirmed that our approach can successfully learn from unlabeled data with a single model while delivering superior predictive performance than state-of-the-art techniques{\$}{\$}^1{\$}{\$}1.",
 isbn="978-981-96-6579-2"
 }

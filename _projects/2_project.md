@@ -4,7 +4,7 @@ title: AM para qualidade no desenvolvimento de software
 description: Aprendizado de máquina online para a melhoria da qualidade e agilidade no desenvolvimento de software
 img: assets/img/9.jpg
 importance: 2
-category: work
+category: Coordinator
 giscus_comments: true
 ---
 

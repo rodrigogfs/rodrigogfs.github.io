@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Rodrigo G. F. Soares} is an Associate Lecturer at the Federal University of Pernambuco (UFPE), Recife, Brazil. He received the B.Sc. degree in Computer Engineering from the Federal University of Rio Grande do Norte (UFRN), Brazil, in 2005. And the M.Sc. degree in Computer Science from the UFPE, Brazil, in 2008. He has been the recipient of Brazilian Council for Scientific and Technological Development (CNPq) scholarships in both degrees. He received the Ph.D. degree in Computer Science at the University of Birmingham, UK, in 2014 with a scholarship from the CAPES Foundation, Brazil. His research interests include data stream learning, semi-supervised learning, neural networks, ensemble learning and clustering.
+Rodrigo G. F. Soares is an Associate Lecturer at the Federal University of Pernambuco (UFPE), Recife, Brazil. He received the B.Sc. degree in Computer Engineering from the Federal University of Rio Grande do Norte (UFRN), Brazil, in 2005. And the M.Sc. degree in Computer Science from the UFPE, Brazil, in 2008. He has been the recipient of Brazilian Council for Scientific and Technological Development (CNPq) scholarships in both degrees. He received the Ph.D. degree in Computer Science at the University of Birmingham, UK, in 2014 with a scholarship from the CAPES Foundation, Brazil. His research interests include data stream learning, semi-supervised learning, neural networks, ensemble learning and clustering.
 
 - [Lattes Curriculum](https://lattes.cnpq.br/2526739219416964)
 - [ORCID ID](https://orcid.org/0000-0003-4806-3652)
