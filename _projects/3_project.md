@@ -1,81 +1,27 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Aprendizado de Máquina para agropecuária 4.0
+description: SISTEMAS INTELIGENTES – MODELAGEM PREDITIVA E INTERNET DAS COISAS PARA A PRODUÇÃO ANIMAL NA AGROPECUÁRIA 4.0
+img: assets/img/3.jpg
+<!-- redirect: https://unsplash.com -->
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Fomento FACEPE, Processo APQ-0496-5.03/22, vinculado ao Edital 08/2022 - Chamada Pública FACEPE-FAPESP – Apoio a Pesquisas em Inteligência Artificial Aplicada (IA)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Português
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+A agropecuária enfrenta desafios crescentes para garantir produtividade sustentável, especialmente em regiões com infraestrutura limitada. Tecnologias da Agropecuária 4.0, como Internet das Coisas (IoT), aprendizado de máquina e computação distribuída, vêm sendo aplicadas para otimizar processos produtivos e melhorar o bem-estar animal. No entanto, a implementação dessas tecnologias em áreas rurais esbarra em desafios como conectividade instável e altos custos operacionais.
+Neste contexto, este projeto propõe uma arquitetura baseada no conceito de cloud continuum para otimizar o monitoramento e a análise do comportamento animal em sistemas de produção agropecuária. A proposta busca integrar computação em borda (edge computing), névoa (fog computing) e nuvem (cloud computing), permitindo a alocação dinâmica e eficiente de recursos computacionais, reduzindo latência e consumo energético.
+A questão central a ser investigada é: como uma arquitetura de cloud continuum pode aprimorar o monitoramento animal, garantindo eficiência computacional e viabilidade econômica? A hipótese é que a alocação dinâmica de tarefas entre edge, fog e cloud pode melhorar a eficiência operacional, reduzir custos e latência, e permitirá a detecção precoce de problemas de saúde e bem-estar, otimizando a gestão produtiva. Evidências preliminares indicam que o cloud continuum tem sido eficaz em outros domínios, como cidades inteligentes e indústria 4.0, mas sua aplicação na agropecuária ainda é incipiente.
+Para validar essa hipótese, serão desenvolvidos dispositivos IoT inteligentes com TinyML e algoritmos de visão computacional para análise de padrões comportamentais. A abordagem será testada em um ambiente real de produção. Os resultados esperados incluem maior precisão no monitoramento animal, um modelo escalável para a agropecuária de precisão e avanços no estado da arte em arquiteturas para processamento distribuído em um cloud continuum.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## English
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Agriculture faces increasing challenges in ensuring sustainable productivity, especially in regions with limited infrastructure. Technologies from Agriculture 4.0, such as the Internet of Things (IoT), machine learning, and distributed computing, have been applied to optimize production processes and improve animal welfare. However, implementing these technologies in rural areas faces obstacles such as unstable connectivity and high operational costs.
+In this context, this project proposes an architecture based on the cloud continuum concept to optimize the monitoring and analysis of animal behavior in livestock production systems. The proposal aims to integrate edge computing, fog computing, and cloud computing, enabling the dynamic and efficient allocation of computational resources while reducing latency and energy consumption.
+The central research question is: how can a cloud continuum architecture enhance animal monitoring while ensuring computational efficiency and economic feasibility? The hypothesis is that the dynamic allocation of tasks across edge, fog, and cloud can improve operational efficiency, reduce costs and latency, and enable the early detection of health and welfare issues, thus optimizing production management. Preliminary evidence suggests that the cloud continuum has been effective in other domains, such as smart cities and Industry 4.0, but its application in agriculture remains underexplored.
+To validate this hypothesis, IoT-enabled smart devices with TinyML and computer vision algorithms will be developed for behavioral pattern analysis. The approach will be tested in a real production environment. The expected outcomes include greater precision in animal monitoring, a scalable model for precision livestock farming, and advances in the state of the art in distributed processing architectures within a cloud continuum.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

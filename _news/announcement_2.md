@@ -1,33 +1,21 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Vaga de doutorado aberta para 2026.1 no CIn-UFPE
+date: 2025-11-05 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Para o semestre de 2026.1, estamos ofertando uma vaga de doutorado para o programa de pós-graduação do CIN-UPFE abertas. O Tema é `Data Stream Learning para TinyML`. Os detalhes para as inscrições e todos os temas disponíveis podem ser encontrados no [site do programa de pós-graduação](https://secpos.cin.ufpe.br/sele%C3%A7%C3%A3o/2026-1).
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## Descrição do Pré-projeto
 
-#### Hipster list
+Técnicas de Tiny Machine Learning (TinyML) permitem que modelos de Machine Learning sejam embarcados em dispositivos com memória e capacidades computacionais extremamente limitadas, como unidades de microcontroladores, tecnologias de wearables, dispositivos de Internet of Things (IoT). Recentemente, TinyML migrou da simples execução de inferência de modelos de ML para toda a execução do aprendizado dos modelos de ML no próprio dispositivo (On-Device Learning - ODL), permitindo a adaptação dos algoritmos a dados pessoais e a ambientes específicos diretamente no dispositivo. No entanto, os trabalhos existentes sobre ODL pressupõem que todos os dados estejam disponíveis no dispositivo com rótulos, o que raramente ocorre na prática, uma vez que os dados são coletados ao longo do tempo e o processo de rotulagem exigiria intervenção humana constante. Embora algumas abordagens de Aprendizado Semissupervisionado tenham sido propostas no campo de Data Stream Learning, elas não são apropriadas para operar sob as restrições extremas do TinyML.
+Este projeto propõe contribuições relevantes para Data Stream Learning no contexto de TinyML. As soluções geradas por este projeto permitirão que dispositivos com capacidade computacional severamente limitada executem inferência e treinamento de modelos de Machine Learning que aprendem tanto a partir de dados rotulados como dados não rotulados prontamente gerados nos próprios dispositivos em fluxos de dados potencialmente infinitos.
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
 
 ---
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.

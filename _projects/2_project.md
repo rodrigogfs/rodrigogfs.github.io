@@ -1,81 +1,27 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: AM para qualidade no desenvolvimento de software
+description: Aprendizado de máquina online para a melhoria da qualidade e agilidade no desenvolvimento de software
+img: assets/img/9.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Fomento: CNPq - Processo 444449/2024-8 - Chamada CNPq/MCTI/FNDCT Nº 22/2024 - Programa Conhecimento Brasil - Apoio a Projetos em Rede com Pesquisadores Brasileiros no Exterior
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Português 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Produzir sistemas de software cada vez maiores e mais complexos em maior velocidade é um grande desafio para a indústria. Essa demanda ocasiona defeitos de software que têm um impacto significativo na aceitação do produto. Estima-se que correções em softwares custam mundialmente 381 bilhões de dólares anualmente. Reduzir e corrigir defeitos de software são problemas importantes, ainda mais com a forte pressão para produção de soluções rápidas. Essa velocidade das entregas faz com que desenvolvedores priorizem determinadas partes do código-fonte para inspeção e teste. A qualidade dessa priorização pode levar ao sucesso ou à falha no desenvolvimento de um sistema de software.
+Nesse contexto, várias abordagens de aprendizado de máquina foram propostas para prever mudanças críticas (indutoras de defeitos) no código-fonte assim que essas mudanças são implementadas. Tais métodos podem ajudar desenvolvedores a identificar as partes do código-fonte mais suscetíveis a defeitos e alocar mais recursos para testá-las. 
+No entanto, as predições produzidas por essas abordagens podem não ser confiáveis devido a mudanças no processo subjacente de geração de defeitos que foi aprendido, pois tal processo pode ter desvios de conceitos, o que torna as predições obsoletas. Como esses desvios de conceitos podem acontecer a qualquer momento, os desenvolvedores não têm confiança se o modelo aprendido está atualizado ou não, o que pode causar erros graves de predição e levar a atrasos nas entregas. 
+Esta pesquisa irá estudar novos algoritmos de aprendizado semissupervisionado online para acelerar a adaptação a desvios de conceito na predição de mudanças críticas em softwares. As soluções encontradas por este projeto, quando integradas a sistemas de controle de versão de software, fornecerão alertas precoces, confiáveis e automatizados de alterações indutoras de defeitos ao longo da vida útil dos projetos de software.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## English
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Producing increasingly larger and more complex software systems at greater speeds is a major challenge for the software industry. This demand causes software defects that cause a significant impact on product acceptance. It is estimated that software patches cost 381 billion dollars annually worldwide. Reducing and fixing software defects are important issues, even more so with the strong pressure to produce quick fixes. This speed of deliveries makes developers prioritize certain parts of the source code for inspection and testing. The quality of this prioritization can lead to success or failure in the development of a software system.
+In this context, several machine learning approaches have been proposed to predict critical (defect-inducing) changes in source code once these changes are implemented. Such methods can help developers identify the parts of the source code most susceptible to defects and allocate more resources to testing them.
+However, the predictions produced by these approaches may be unreliable due to changes in the underlying defect generation process that has been learned, as such a process may have conceptual deviations, rendering the predictions obsolete. As these deviations from concepts can happen at any time, developers are not confident whether the learned model is up to date or not, which can cause severe prediction errors and lead to delays in deliveries.
+This research will study new semi-supervised online learning algorithms to accelerate the adaptation to concept drifts in the prediction of critical changes in software. The solutions found by this project, when integrated with software version control systems, will provide early, reliable and automated alerts of defect-inducing changes throughout the life of software projects.
