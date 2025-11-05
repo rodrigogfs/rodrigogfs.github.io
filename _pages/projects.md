@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reserch Projects
+title: projects
 permalink: /projects/
 description: Research projects
 nav: true

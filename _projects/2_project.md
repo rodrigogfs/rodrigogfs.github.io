@@ -5,7 +5,7 @@ description: Aprendizado de máquina online para a melhoria da qualidade e agili
 img: assets/img/9.jpg
 importance: 2
 category: Coordinator
-giscus_comments: true
+<!-- giscus_comments: true -->
 ---
 
 Fomento: CNPq - Processo 444449/2024-8 - Chamada CNPq/MCTI/FNDCT Nº 22/2024 - Programa Conhecimento Brasil - Apoio a Projetos em Rede com Pesquisadores Brasileiros no Exterior

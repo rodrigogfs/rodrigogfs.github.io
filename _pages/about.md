@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Associate Lecturer at the Center of Informatics (CIn), Federal University of Pernambuco (UFPE)
+subtitle: Associate Lecturer at the Center of Informatics (CIn), Federal University of Pernambuco (UFPE), Brazil
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Centro de Informática - UFPE (CIn-UFPE,) Sala B-009</p>
-    <p>Rua </p>
+    <p>Centro de Informática - UFPE</p>
     <p>Recife, Pernambuco, Brazil</p>
     <p>Email: rgfs@cin.ufpe.br</p>
 
@@ -37,7 +36,4 @@ Rodrigo G. F. Soares is an Associate Lecturer at the Federal University of Perna
 
 <!--I’m a Lecturer and Researcher at the Federal Rural University of Pernambuco (UFRPE). In 2020, I was also a Research Fellow at the University of Birmingham (UoB). My main area of expertise is Artificial Intelligence, more specifically, Machine Learning (ML) with strong connections to Data Sciences. I have worked extensively in Semi-Supervised Learning (SSL), Ensemble Learning and Neural Networks. SSL algorithms are able to deliver better learning performance than supervised methods by learning from both labelled and unlabelled data. In Data Sciences, labelling instances is often expensive, whereas unlabelled data is typically cheap and abundant, making SSL valuable. Such algorithms have several applications, for example, text classification, credit card approval, etc. I have also worked in Natural Language Processing and Deep Learning in the context of effort estimation for software corrections. -->
 
-<!--
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.-->
