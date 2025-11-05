@@ -3,113 +3,88 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@ARTICLE{9657053,
+  author={Soares, Rodrigo G. F. and Minku, Leandro L.},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  title={OSNN: An Online Semisupervised Neural Network for Nonstationary Data Streams},
+  year={2023},
+  volume={34},
+  number={9},
+  pages={6029-6041},
+  keywords={Training;Manifolds;Labeling;Neural networks;Semisupervised learning;Clustering algorithms;Software;Data stream learning;manifold learning;neural networks;nonstationary environments;online semisupervised learning},
+  doi={10.1109/TNNLS.2021.3132584}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{SOARES2025107151,
+title = {Online ensemble model compression for nonstationary data stream learning},
+journal = {Neural Networks},
+volume = {185},
+pages = {107151},
+year = {2025},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2025.107151},
+url = {https://www.sciencedirect.com/science/article/pii/S0893608025000309},
+author = {Rodrigo G.F. Soares and Leandro L. Minku},
+keywords = {Online model compression, Nonstationary environments, Data stream learning, Ensemble learning, Neural networks},
+abstract = {Learning from data streams that emerge from nonstationary environments has many real-world applications and poses various challenges. A key characteristic of such a task is the varying nature of the underlying data distributions over time (concept drifts). However, the most common type of data stream learning approach are ensemble approaches, which involve the training of multiple base learners. This can severely increase their computational cost, especially when the learners have to recover from concept drift, rendering them inadequate for applications with tight time and space constraints. In this work, we propose Online Weight Averaging (OWA) — a robust and fast online model compression method for nonstationary data streams based on stochastic weight averaging. It is the first online model compression for nonstationary data streams, which is capable of compressing an evolving ensemble of neural networks into a single model continuously over time. It combines several snapshots of a neural network over time by averaging its weights in specific time steps to find promising regions in the loss landscape with the ability to forget weights from outdated time steps when a concept drift occurs. In this way, at any point in time, a single neural network is maintained to represent a whole ensemble, leveraging the power of ensembles while being appropriate for applications with tight speed requirements. Our experiments show that this key advantage of our proposed method also translates into other advantages such as (1) significant savings in computational cost compared to state-of-the-art data stream ensemble methods while (2) delivering similar predictive performance.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@InProceedings{10.1007/978-981-96-6951-6_16,
+author="G. F. Soares, Rodrigo
+and Feitosa, Aline P. S. C.
+and E. Gon{\c{c}}alves, Glauco
+and A. Vidal, Douglas",
+editor="Mahmud, Mufti
+and Doborjeh, Maryam
+and Wong, Kevin
+and Leung, Andrew Chi Sing
+and Doborjeh, Zohreh
+and Tanveer, M.",
+title="Self-evolving Optimization for Data Stream Learning",
+booktitle="Neural Information Processing",
+year="2026",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="224--240",
+abstract="One of the main challenges in data stream learning are concept drifts, which encompasses changes in both the data distribution and the posterior class distribution over time. Several approaches based on online neural networks have been proposed for Online Supervised Classification (OSC) in data stream learning. However, these techniques do not adapt the optimization algorithm to incoming concept drifts, which can lead to weight updates with misleading or obsolete information. In fact, several momentum-based algorithms, such as AdamW, employ past gradient information in the form of exponential moving averages and depend on several user-defined constant hyperparameters for controlling these averages. However, these gradients and hyperparameters may not be meaningful for new concepts, which causes the optimizer to become obsolete. Moreover, the tuning of these hyperparameters may require the availability of the entire dataset, which is not possible in data stream learning. In this paper, we extend the AdamW optimizer and propose the Online Adaptive Moment Estimation (OAdam), an algorithm for training online neural networks in data stream learning that automatically adapts to concept drift without hyperparameters. It employs bias and variance to detect how well the model is representing and learning the data and evolve its training accordingly. When a concept drift occurs, it is capable of adapting the network's momentum, regularization and step size to better fit the incoming changes in class distribution. Our experiments confirmed that our method is able to react and adapt to concept drifts more effectively than other approaches, producing better predictive performance.",
+isbn="978-981-96-6951-6"
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@InProceedings{10.1007/978-981-96-6579-2_19,
+author="A. Vidal, Douglas
+and G. F. Soares, Rodrigo
+and E. Gon{\c{c}}alves, Glauco
+and P. S. C. Feitosa, Aline
+and M. Tavares, Kauan
+and C. R. Seruffo, Marcos",
+editor="Mahmud, Mufti
+and Doborjeh, Maryam
+and Wong, Kevin
+and Leung, Andrew Chi Sing
+and Doborjeh, Zohreh
+and Tanveer, M.",
+title="A Weight Averaging Neural Network for Semi-supervised Data Stream Learning",
+booktitle="Neural Information Processing",
+year="2025",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="273--289",
+abstract="Data streams from non-stationary environments are inherently difficult for predictive techniques as data distributions may rapidly change (concept drifts), requiring self-evolving and efficient models. Another important challenge is learning from abundant and potentially useful unlabeled data that would be otherwise discarded by offline methods. In this work, we propose Semi-supervised Stochastic Weight Averaging (S3WA), a semi-supervised neural network that employs Stochastic Weight Averaging (SWA) to improve predictive performance over typical ensemble approaches. S3WA employs a Denoising Autoencoder to learn meaningful dynamic representations of data using both labeled and unlabeled instances. Unlike SWA, S3WA modifies the weight averaging strategy to continuously adapt to changes in the weight space and is capable of working in non-stationary environments. Our experiments confirmed that our approach can successfully learn from unlabeled data with a single model while delivering superior predictive performance than state-of-the-art techniques{\$}{\$}^1{\$}{\$}1.",
+isbn="978-981-96-6579-2"
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@INPROCEEDINGS{8489030,
+  author={Soares, Rodrigo G. F.},
+  booktitle={2018 International Joint Conference on Neural Networks (IJCNN)},
+  title={Effort Estimation via Text Classification And Autoencoders},
+  year={2018},
+  volume={},
+  number={},
+  pages={01-08},
+  keywords={Software;Estimation;Feature extraction;Agile software development;Natural languages;Planning;Task analysis},
+  doi={10.1109/IJCNN.2018.8489030}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
