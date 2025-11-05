@@ -418,15 +418,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-vagas-de-mestrado-abertas-para-2026-1-no-cin-ufpe",
+            },},{id: "news-new-website-is-on-sparkles-smile-this-is-a-guide-to-all-our-work-on-research-teaching-and-more-smile",
+          title: 'New website is ON! :sparkles: :smile: This is a guide to all our...',
+          description: "",
+          section: "News",},{id: "news-vagas-de-mestrado-abertas-para-2026-1-no-cin-ufpe",
           title: 'Vagas de mestrado abertas para 2026.1 no CIn-UFPE',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "news-new-website-is-on-sparkles-smile-this-is-a-guide-to-all-our-work-on-research-teaching-and-more-smile",
-          title: 'New website is ON! :sparkles: :smile: This is a guide to all our...',
-          description: "",
-          section: "News",},{id: "news-vaga-de-doutorado-aberta-para-2026-1-no-cin-ufpe",
+            },},{id: "news-vaga-de-doutorado-aberta-para-2026-1-no-cin-ufpe",
           title: 'Vaga de doutorado aberta para 2026.1 no CIn-UFPE',
           description: "",
           section: "News",handler: () => {
