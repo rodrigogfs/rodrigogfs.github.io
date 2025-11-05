@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
+        },{id: "nav-reserch-projects",
+          title: "Reserch Projects",
           description: "Research projects",
           section: "Navigation",
           handler: () => {
@@ -418,10 +418,12 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-vagas-de-mestrado-abertas-2026-1-para-o-programa-de-pós-graduação-do-cin-upfe-abertas-os-temas-estão-aqui-os-temas-podem-ser-encontrados-aqui-temas-modelos-autoajustáveis-para-aprendizagem-de-máquina-semissupervisionada-algoritmos-eficientes-para-aprendizagem-de-máquina-semissupervisionada-algoritmos-de-data-stream-learning-para-a-melhoria-da-qualidade-do-desenvolvimento-de-software-algoritmos-inteligentes-de-data-stream-learning-para-problemas-com-rótulos-com-atraso",
-          title: 'Vagas de mestrado abertas 2026.1 para o programa de pós-graduação do CIN-UPFE abertas....',
+            },},{id: "news-vagas-de-mestrado-abertas-para-2026-1-no-cin-ufpe",
+          title: 'Vagas de mestrado abertas para 2026.1 no CIn-UFPE',
           description: "",
-          section: "News",},{id: "news-new-website-is-on-sparkles-smile-this-is-a-guide-to-all-our-work-on-research-teaching-and-more-smile",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "news-new-website-is-on-sparkles-smile-this-is-a-guide-to-all-our-work-on-research-teaching-and-more-smile",
           title: 'New website is ON! :sparkles: :smile: This is a guide to all our...',
           description: "",
           section: "News",},{id: "news-vaga-de-doutorado-aberta-para-2026-1-no-cin-ufpe",
