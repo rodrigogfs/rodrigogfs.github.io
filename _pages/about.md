@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Centro de Informática - UFPE</p>
     <p>Recife, Pernambuco, Brazil</p>
-    <p>Email: rgfs@cin.ufpe.br</p>
+    <p>Email: &#114;&#103;&#102;&#115;&#064;&#099;&#105;&#110;&#046;&#117;&#102;&#112;&#101;&#046;&#098;&#114;</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
