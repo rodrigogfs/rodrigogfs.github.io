@@ -97,6 +97,11 @@ ninja.data = [{
           description: "ML semissupervisionada eficiente",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-stable-prediction-of-defect-inducing-software-changes-spdisc",
+          title: 'Stable Prediction of Defect-Inducing Software Changes (SPDISC)',
+          description: "Software Defect Prediction with Data Stream Learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
