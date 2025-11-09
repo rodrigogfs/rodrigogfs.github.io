@@ -92,6 +92,11 @@ ninja.data = [{
           description: "SISTEMAS INTELIGENTES – MODELAGEM PREDITIVA E INTERNET DAS COISAS PARA A PRODUÇÃO ANIMAL NA AGROPECUÁRIA 4.0",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-comitês-de-classificadores-semi-supervisionados-de-larga-escala",
+          title: 'Comitês de classificadores semi-supervisionados de larga escala',
+          description: "ML semissupervisionada eficiente",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
