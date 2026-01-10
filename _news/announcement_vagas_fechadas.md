@@ -6,8 +6,5 @@ inline: true
 related_posts: false
 ---
 
----
 
-## Descrição do Pré-projeto-->
-
-Vagas para mestrado e doutorado agora estão fechadas
+Vagas para mestrado e doutorado agora estão fechadas. Mais vagas serão oferecidas ainda este ano.
