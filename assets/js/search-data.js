@@ -77,8 +77,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_mestrado/";
-            },},{id: "news-descrição-do-pré-projeto-amp-gt-vagas-para-mestrado-e-doutorado-agora-estão-fechadas",
-          title: 'Descrição do Pré-projeto–&amp;amp;gt;  Vagas para mestrado e doutorado agora estão fechadas',
+            },},{id: "news-vagas-para-mestrado-e-doutorado-agora-estão-fechadas-mais-vagas-serão-oferecidas-ainda-este-ano",
+          title: 'Vagas para mestrado e doutorado agora estão fechadas. Mais vagas serão oferecidas ainda...',
           description: "",
           section: "News",},{id: "projects-aprendizado-semissupervisionado-online-para-predição-de-mudanças-críticas-em-software",
           title: 'Aprendizado semissupervisionado online para predição de mudanças críticas em software',
