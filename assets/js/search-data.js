@@ -77,7 +77,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_mestrado/";
-            },},{id: "projects-aprendizado-semissupervisionado-online-para-predição-de-mudanças-críticas-em-software",
+            },},{id: "news-descrição-do-pré-projeto-amp-gt-vagas-para-mestrado-e-doutorado-agora-estão-fechadas",
+          title: 'Descrição do Pré-projeto–&amp;amp;gt;  Vagas para mestrado e doutorado agora estão fechadas',
+          description: "",
+          section: "News",},{id: "projects-aprendizado-semissupervisionado-online-para-predição-de-mudanças-críticas-em-software",
           title: 'Aprendizado semissupervisionado online para predição de mudanças críticas em software',
           description: "Projeto para predição de defeitos em software",
           section: "Projects",handler: () => {
